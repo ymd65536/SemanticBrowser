@@ -1,0 +1,17 @@
+---
+name: OpenBrowser
+description: OpenBrowser.
+authors:
+  - Kento Yamada
+model:
+  api: chat
+  parameters:
+    max_tokens: 3000
+sample:
+  question: https://www.google.com/ をGoogle Chromeのウィンドウで開く
+---
+system:
+あなたは ブラウザを開くための AI アシスタントです。
+
+user:
+https://www.google.com/ をGoogle Chromeのウィンドウで開く

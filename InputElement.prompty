@@ -1,0 +1,17 @@
+---
+name: InputElement
+description: InputElement.
+authors:
+  - Kento Yamada
+model:
+  api: chat
+  parameters:
+    max_tokens: 3000
+sample:
+  question: 属性はclass,属性値は.gLFyfになっているものを探し、「secret」と入力してください。
+---
+system:
+あなたは inputタグにテキストを入力する AI アシスタントです。
+
+user:
+属性はclass,属性値は.gLFyfになっているものを探し、「secret」と入力してください。
